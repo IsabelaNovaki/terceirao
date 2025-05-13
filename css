@@ -1,0 +1,164 @@
+/* styles.css */
+
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Seções principais */
+.section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+/* Perfil do Usuário */
+.perfil-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil-info {
+    width: 30%;
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+.perfil-info h3 {
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+
+.acoes button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.acoes button:hover {
+    background-color: #555;
+}
+
+/* Recomendações de Filmes */
+.recomendacao-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.recomendacao {
+    width: 150px;
+    text-align: center;
+}
+
+.recomendacao img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recomendacao h3 {
+    margin-top: 0.5rem;
+    font-size: 18px;
+}
+
+/* Fórum de Discussões */
+.forum-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.topico {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.topico h3 {
+    font-size: 20px;
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Enquetes */
+.enquete {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
